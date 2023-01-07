@@ -1,0 +1,30 @@
+{
+    "name": "zenn-history",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "fmt": "rome format src && rome check src"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.10.5",
+        "@extend-chrome/storage": "^1.5.0",
+        "@mantine/core": "^5.9.6",
+        "@mantine/hooks": "^5.9.6",
+        "@types/chrome": "^0.0.206",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "rome": "^11.0.0"
+    },
+    "devDependencies": {
+        "@crxjs/vite-plugin": "^2.0.0-beta.6",
+        "@types/react": "^18.0.26",
+        "@types/react-dom": "^18.0.10",
+        "@vitejs/plugin-react": "^3.0.0",
+        "typescript": "^4.9.4",
+        "vite": "^4.0.3"
+    }
+}
