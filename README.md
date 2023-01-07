@@ -9,6 +9,13 @@ Chrome や Chrome 互換ブラウザで動作します。
 - Ctrl(Command)+ Shift + X キーを押下すると履歴リストがポップアップします。履歴データのフィルタリングや全削除が行なえます。
 - 履歴リストの各記事タイトルを押下すると元のページが開きます。
 
+## 技術スタック
+
+- React + TypeScript
+- [CRXJS Vite Plugin](https://crxjs.dev/vite-plugin)
+- [Mantine](https://mantine.dev/): UI Library
+- [Rome](https://rome.tools/): Linter & Formatter
+
 ## インストール
 
 以下のコマンドを実行すると dist ディレクトリが生成されます。
